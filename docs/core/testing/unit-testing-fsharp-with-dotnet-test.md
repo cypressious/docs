@@ -67,7 +67,7 @@ dotnet add reference ../MathService/MathService.fsproj
 * Item 1
 * Item 2
 
->![IMPORTANT]
+>[!IMPORTANT]
 >If you are not using the .NET Core 3.0 SDK, you have to add some additional dependencies.
 >
 >* .NET Core 2.2 SDK and below:
@@ -93,8 +93,6 @@ dotnet add reference ../MathService/MathService.fsproj
 >     ```xml
 >     <Project Sdk="Microsoft.NET.Sdk.Web">
 >     ```
-
-If the library you're testing targets `AspNetCore`, you'll need to add reference to both the `Microsoft.AspNetCore.App` and `Microsoft.AspNetCore.Mvc.Testing` packages. Also, set the SDK type in the project to the web SDK: `<Project Sdk="Microsoft.NET.Sdk.Web">`.
 
 You can see the entire file in the [samples repository](https://github.com/dotnet/samples/blob/master/core/getting-started/unit-testing-with-fsharp/MathService.Tests/MathService.Tests.fsproj) on GitHub.
 
