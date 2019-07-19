@@ -65,7 +65,7 @@ dotnet add reference ../MathService/MathService.fsproj
 ```
 
 >[!IMPORTANT]
->If you are not using the .NET Core 3.0 SDK, you have to add two additional package refernces,`Microsoft.AspNetCore.App` and `Microsoft.AspNetCore.Mvc.Testing`.
+>If you are _not_ using the **.NET Core 3.0 SDK**, you must add two additional package references,`Microsoft.AspNetCore.App` and `Microsoft.AspNetCore.Mvc.Testing`.
 >
 >```
 >dotnet add package Microsoft.AspNetCore.App
