@@ -95,7 +95,7 @@ dotnet add reference ../MathService/MathService.fsproj
 >dotnet add package Microsoft.AspNetCore.Mvc.Testing
 >```
 >
->If you are using the .NET Core 2.1 SDK and earlier, also set the SDK type in the testing project file to the web SDK
+>If you are using the **.NET Core 2.1 SDK** or earlier, also set the SDK type in the testing project file to the web SDK
 >
 >```xml
 ><Project Sdk="Microsoft.NET.Sdk.Web">
