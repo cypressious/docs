@@ -81,11 +81,15 @@ The [dotnet new](../tools/dotnet-new.md) command creates a test project that use
 
 [!code-xml[Packages](~/samples/core/getting-started/unit-testing-vb-nunit/PrimeService.Tests/PrimeService.Tests.vbproj#Packages)]
 
+
 The test project requires other packages to create and run unit tests. `dotnet new` in the previous step added NUnit and the NUnit test adapter. Now, add the `PrimeService` class library as another dependency to the project. Use the [`dotnet add reference`](../tools/dotnet-add-reference.md) command:
 
 ```console
 dotnet add reference ../PrimeService/PrimeService.vbproj
 ```
+
+>![IMPORTANT]
+>If the library you're testing targets `AspNetCore`, you'll need to add reference to both the `Microsoft.AspNetCore.App` and `Microsoft.AspNetCore.Mvc.Testing` packages. Also, set the SDK type in the project to the web SDK: `<Project Sdk="Microsoft.NET.Sdk.Web">`.
 
 You can see the entire file in the [samples repository](https://github.com/dotnet/samples/blob/master/core/getting-started/unit-testing-vb-nunit/PrimeService.Tests/PrimeService.Tests.vbproj) on GitHub.
 

@@ -64,6 +64,9 @@ The test project requires other packages to create and run unit tests. `dotnet n
 dotnet add reference ../MathService/MathService.fsproj
 ```
 
+>![IMPORTANT]
+>If the library you're testing targets `AspNetCore`, you'll need to add reference to both the `Microsoft.AspNetCore.App` and `Microsoft.AspNetCore.Mvc.Testing` packages. Also, set the SDK type in the project to the web SDK: `<Project Sdk="Microsoft.NET.Sdk.Web">`.
+
 You can see the entire file in the [samples repository](https://github.com/dotnet/samples/blob/master/core/getting-started/unit-testing-with-fsharp/MathService.Tests/MathService.Tests.fsproj) on GitHub.
 
 You have the following final solution layout:
