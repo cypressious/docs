@@ -88,19 +88,7 @@ The test project requires other packages to create and run unit tests. `dotnet n
 dotnet add reference ../PrimeService/PrimeService.csproj
 ```
 
->[!IMPORTANT]
->If you're _not_ using the **.NET Core 3.0 SDK**, you must add two additional package references,`Microsoft.AspNetCore.App` and `Microsoft.AspNetCore.Mvc.Testing`.
->
->```
->dotnet add package Microsoft.AspNetCore.App
->dotnet add package Microsoft.AspNetCore.Mvc.Testing
->```
->
->If you're using the **.NET Core 2.1 SDK** or earlier, also set the SDK type in the testing project file to the web SDK
->
->```xml
-><Project Sdk="Microsoft.NET.Sdk.Web">
->```
+[!INCLUDE [testing an ASP.NET Core project from .NET Core](~/includes/selective-unit-tests.md)]
 
 You can see the entire file in the [samples repository](https://github.com/dotnet/samples/blob/master/core/getting-started/unit-testing-using-nunit/PrimeService.Tests/PrimeService.Tests.csproj) on GitHub.
 
