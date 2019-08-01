@@ -1,5 +1,5 @@
 >[!IMPORTANT]
->If you're _not_ using the **.NET Core 3.0 SDK**, you must add two additional package references,`Microsoft.AspNetCore.App` and `Microsoft.AspNetCore.Mvc.Testing`.
+>If you're _not_ using the **.NET Core 3.0 SDK**, you must add two additional package references, `Microsoft.AspNetCore.App` and `Microsoft.AspNetCore.Mvc.Testing`.
 >
 >```
 >dotnet add package Microsoft.AspNetCore.App
