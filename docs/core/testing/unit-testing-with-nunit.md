@@ -88,7 +88,7 @@ The test project requires other packages to create and run unit tests. `dotnet n
 dotnet add reference ../PrimeService/PrimeService.csproj
 ```
 
-[!INCLUDE [testing an ASP.NET Core project from .NET Core](~/includes/selective-unit-tests.md)]
+[!INCLUDE [testing an ASP.NET Core project from .NET Core](../../../includes/core-testing-note-aspnet.md)]
 
 You can see the entire file in the [samples repository](https://github.com/dotnet/samples/blob/master/core/getting-started/unit-testing-using-nunit/PrimeService.Tests/PrimeService.Tests.csproj) on GitHub.
 
