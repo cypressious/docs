@@ -6,7 +6,7 @@
 >dotnet add package Microsoft.AspNetCore.Mvc.Testing
 >```
 >
->If you're using the **.NET Core 2.1 SDK** or earlier, also set the SDK type in the testing project file to the web SDK
+>Also, if you're using the **.NET Core 2.1 SDK** or earlier, set the SDK type in the testing project file to the web SDK
 >
 >```xml
 ><Project Sdk="Microsoft.NET.Sdk.Web">
