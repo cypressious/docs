@@ -5,7 +5,7 @@
 >dotnet add package Microsoft.AspNetCore.App
 >```
 >
->This command adds a _versioned_ package reference to your project. You will need to open the project file and remove `Version` attribute. The reference should look like the following.
+>This command adds a _versioned_ package reference to your project. You will need to open the project file and remove the `Version` attribute. The reference should look like the following.
 >
 >```xml
 ><ItemGroup>
