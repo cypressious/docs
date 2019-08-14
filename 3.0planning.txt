@@ -1,0 +1,100 @@
+.NET Core 3.0 can be used to build great applications for Windows Desktop
+  - Using Visual Studio to create Winforms/WPF apps
+  - Interop with WinRT/COM/IJW
+  - Control libs should target both Framework and Core
+  - Publishing desktop apps with an icon and ?activation host?
+  - Publishing with ClickOnce
+  - Publishing with MSIX
+  - 
+  
+.NET Core 3.0 has great Fundamentals (Acquisition, Compliance, Security, Performance, Reliability, Globalization etc.)
+.NET Core 3.0 can be used to build great cloud services
+.NET Core 3.0 has great support for Machine Learning and AI in all of your apps
+.NET Core 3.0 can be used to build great apps for Azure IoT Edge
+.NET Core 3.0 can be used to build modern web apps
+.NET Core 3.0 makes working with databases more effective, efficient, and enjoyable	Diego Vega	Proposed
+.NET Standard 2.1
+.NET Core 3.0 has a rich ecosystem of libraries, frameworks, and tools
+.NET Core 3.0 can be used to build Universal Windows Platform apps
+.NET Core 3.0 can be used to enable real-time-over-HTTP experiences
+
+
+
+
+- Windows Presentation Foundation
+  - Overview
+    - [ ] What is WPF?
+      *Source material*
+      - [Get started with WPF](https://docs.microsoft.com/en-us/visualstudio/designers/getting-started-with-wpf?view=vs-2019)
+      - [Intro to WPF](https://docs.microsoft.com/en-us/visualstudio/designers/introduction-to-wpf?view=vs-2019)
+    - [ ] What's new
+  - Getting started
+    - [ ] Create a WPF app
+      Source material
+      - [Walkthrough 1st app](https://docs.microsoft.com/en-us/dotnet/framework/wpf/getting-started/walkthrough-my-first-wpf-desktop-application)
+    - [ ] Create a WPF user control library
+
+- Windows Presentation Foundation
+
+  ...
+
+  - Migration
+    - [ ] Differences from .NET Framework
+    - [ ] Convert a project to .NET Core
+      _Source material_
+      - [Migrate from framework to core](https://docs.microsoft.com/en-us/dotnet/core/porting/wpf)
+
+
+
+      _Source material_
+      []()
+
+
+- Windows Presentation Foundation
+  - Overview
+  - Getting started
+  - Migration
+  - Fundamentals
+  - Working with data
+    - [ ] Add a data source to your project
+      _Source material_
+      [How to specify binding source](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/how-to-specify-the-binding-source)
+      [Binding sources overview](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-sources-overview)
+    - [ ] Add databinding to controls
+      _Source material_
+      [Binding declarations overview](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-declarations-overview)
+      [Lots of databinding HOWTO articles](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/data-binding-how-to-topics)
+    - [ ] Add validation to controls
+    - [ ] Display data with the DataGrid
+  - Package and distribute
+
+- Windows Presentation Foundation
+  - Overview
+    - What is WPF?
+    - What's new
+  - Getting started
+    - Create a WPF app
+    - Create a WPF user control library
+  - Migration
+    - Differences from .NET Framework
+    - Convert a project to .NET Core
+  - Fundamentals
+    - XAML
+    - Define resources
+    - Styles and templates
+      - Overview
+      - Create and apply a style
+      - Create and apply a template
+    - Accessibility overview
+    - Localize your app
+    - Draw shapes
+    - Display a dialog popup
+  - Working with data
+    - Add a data source to your project
+    - Add databinding to controls
+    - Add validation to controls
+    - Display data with the DataGrid
+  - Package and distribute
+    - Package your app with MSIX
+    - Publish a library to NuGet
+    - Publish to the Microsoft Store

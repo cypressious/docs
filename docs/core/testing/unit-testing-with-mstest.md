@@ -12,7 +12,7 @@ This tutorial takes you through an interactive experience building a sample solu
 
 [!INCLUDE [testing an ASP.NET Core project from .NET Core](../../../includes/core-testing-note-aspnet.md)]
 
-### Create the source project
+## Create the source project
 
 Open a shell window. Create a directory called *unit-testing-using-mstest* to hold the solution. Inside this new directory, run [`dotnet new sln`](../tools/dotnet-new.md) to create
 a new solution file for the class library and the test project. Next, create a *PrimeService* directory. The following outline shows the directory and file structure thus far:
@@ -42,7 +42,7 @@ namespace Prime.Services
 
 Change the directory back to the *unit-testing-using-mstest* directory. Run [`dotnet sln add PrimeService/PrimeService.csproj`](../tools/dotnet-sln.md) to add the class library project to the solution. 
 
-### Create the test project
+## Create the test project
 
 Next, create the *PrimeService.Tests* directory. The following outline shows the directory structure:
 
